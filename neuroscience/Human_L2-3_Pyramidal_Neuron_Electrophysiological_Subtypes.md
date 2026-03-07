@@ -40,6 +40,40 @@ The correspondence between e-types and transcriptomic types (t-types) was found 
 
 The authors conclude that the functional diversity of human L2-3 pyramidal neurons generates a fine-grained network architecture with subtype-specific wiring rules, enabling differential computations within superficial cortical microcircuits.
 
+## Four Electrophysiological Subtypes (E-types)
+
+### 1. SlowAP (~1/3 of neurons, largest group)
+- **Low rheobase** (easily excitable)
+- **Slow AP upstroke** kinetics
+- **Low AP amplitude**
+- Synaptic properties: forms **sparse but strong** connections (~0.9 mV mean EPSP) with **depressing** short-term plasticity (PPR ~0.87). Receives fewer incoming connections overall.
+
+### 2. FastAP
+- **Fast AP upstroke and downstroke** kinetics
+- **More negative resting membrane potential**
+- Synaptic properties: homotypic connections are **weak** (~0.45 mV) and **facilitating** (PPR ~1.24). Preferentially projects onto LowRin neurons (21%) more than it receives back (12%).
+- Morphology: **shortest total dendritic length**, lowest apical branching complexity.
+
+### 3. DoubSpk (smallest group, rare)
+- **Initial doublet spiking** pattern
+- **Large ISI adaptation** (steep spike frequency adaptation)
+- **Steep afterdepolarization slope**, low AP afterhyperpolarization
+- Highest connectivity with LowRin neurons (22-26% connection probability).
+- Morphology: **longest basal dendrites**, highest basal branching complexity.
+
+### 4. LowRin
+- **High rheobase** (least excitable)
+- **Low input resistance**
+- **Lower AP frequency**
+- Synaptic properties: acts as a **convergence hub** — receives significantly more inputs from all other e-types. Incoming synapses are **weaker** (~0.58 mV) with **facilitating** short-term plasticity (PPR ~1.01).
+- Morphology: **longest total dendritic length**, largest apical tuft, largest soma volume, highest apical branching complexity.
+
+### Key Wiring Principles
+- **LowRin** neurons are preferential receivers (integration hubs); **SlowAP** neurons form fewer but stronger, depressing connections.
+- **FastAP→LowRin** connectivity is notably asymmetric (high forward, low reverse).
+- E-type to transcriptomic type (t-type) correspondence is limited — electrophysiological classification captures functional dimensions not predicted by gene expression alone.
+- These microcircuit organization principles are **conserved across individual patients**.
+
 ---
 
 **Limitations**: Data come from epilepsy surgery tissue (though structural abnormalities were excluded); slice preparation truncates axons/dendrites (mitigated by quality control showing connectivity rates comparable to or exceeding prior studies).
