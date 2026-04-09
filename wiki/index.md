@@ -5,7 +5,7 @@ tags: [index, map]
 
 # Knowledge Base Index
 
-A thematic map of the 13 atomic notes. Clusters are not mutually exclusive — several notes sit at the intersection of multiple topics.
+A thematic map of the 15 atomic notes. Clusters are not mutually exclusive — several notes sit at the intersection of multiple topics.
 
 ## Population Geometry and Manifolds
 Low-dimensional population activity as the language of computation — dimensionality reduction, geometry, topology, and their link to circuit connectivity.
@@ -51,6 +51,11 @@ Deep learning interpretability through the lens of the low-dimensional manifold 
 - [[deep-learning-interpretability-manifold-review]]
 - [[wiki/interpretability-and-representation]]
 
+## Methods and Science Meta
+AI tools displacing manual lab workflows, and the commercial landscape of agent-shaped science SaaS. (No synthesis page yet — needs ≥3 notes.)
+- [[ai-lab-tools-histology-imaging]]
+- [[science-ai-agents-saas-landscape]]
+
 ---
 
 ## Tag Index
@@ -76,3 +81,5 @@ Deep learning interpretability through the lens of the low-dimensional manifold 
 - **PCA / basis-patterns / dimensionality**: [[stimulus-driven-v1-dimensionality]]
 - **attention**: [[thalamus-visual-function-review]]
 - **review**: [[neural-manifolds-review]], [[unifying-manifolds-and-circuits]], [[thalamus-visual-function-review]], [[decoding-the-brain-mechanistic-models]], [[deep-learning-interpretability-manifold-review]]
+- **methods / ai-tools**: [[ai-lab-tools-histology-imaging]]
+- **science-meta / ai-agents / business-models**: [[science-ai-agents-saas-landscape]]
