@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "4c1732291f7c145a",
+    "type": "split",
+    "children": [
+      {
+        "id": "4abd654fb78b7997",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76f9e66d87ce53f6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e7ed88857a362243",
+    "type": "split",
+    "children": [
+      {
+        "id": "621f57989113297b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae003852e17d7b9d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "227656c923c55c94",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "9a64eae937335109",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 323.50390243530273
+  },
+  "right": {
+    "id": "f21d0ee2fb9a53ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8911b4227c7dc4a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87a9e1759278c1b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "neuroscience/Neural_Manifolds_Review_v2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Neural_Manifolds_Review_v2 的反向链接列表"
+            }
+          },
+          {
+            "id": "cde0fa63e03083c0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "neuroscience/Neural_Manifolds_Review_v2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Neural_Manifolds_Review_v2 的出链列表"
+            }
+          },
+          {
+            "id": "11ecdddff0589258",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "274c3ebda10aa25b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "19ecb4ea29607d0b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "neuroscience/Neural_Manifolds_Review_v2.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Neural_Manifolds_Review_v2 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "76f9e66d87ce53f6",
+  "lastOpenFiles": [
+    "wiki/interpretability-and-representation.md",
+    "wiki/neuroai-and-embodiment.md",
+    "wiki/cell-types-and-microcircuits.md",
+    "wiki/learning-and-predictive-coding.md",
+    "wiki/thalamus-and-subcortical.md",
+    "wiki/visual-cortex-and-coding.md",
+    "wiki/population-geometry-and-manifolds.md",
+    "wiki/index.md",
+    "notes/unifying-manifolds-and-circuits.md",
+    "notes/thalamus-visual-function-review.md",
+    "notes/stimulus-driven-v1-dimensionality.md",
+    "notes/population-geometry-optimal-coding.md",
+    "notes/decoding-the-brain-mechanistic-models.md",
+    "notes/neural-manifolds-review.md",
+    "notes/latent-knowledge-sensory-cortex.md",
+    "notes/inception-loop-bipartite-invariance.md",
+    "notes/human-l2-3-pyramidal-subtypes.md",
+    "notes/embodied-neuroai-musculoskeletal.md",
+    "notes/deep-learning-interpretability-manifold-review.md",
+    "notes/cell-type-prediction-and-novelty.md",
+    "notes/brain-vs-ai-world-models.md",
+    "neuroscience/embodied neuroai mouse musculoskeletal.md",
+    "drafts/neuroscience/unifying manifolds and circuits.md",
+    "drafts/neuroscience/thalamus visual function review.md",
+    "drafts/neuroscience/stimulus driven population activity V1.md",
+    "drafts/neuroscience/population geometry and optimal coding.md",
+    "wiki",
+    "notes",
+    "drafts/neuroscience",
+    "drafts"
+  ]
+}
