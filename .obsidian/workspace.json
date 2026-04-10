@@ -11,10 +11,14 @@
             "id": "76f9e66d87ce53f6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "wiki/cell-types-and-microcircuits.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "cell-types-and-microcircuits"
             }
           }
         ]
