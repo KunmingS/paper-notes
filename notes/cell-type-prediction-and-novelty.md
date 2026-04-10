@@ -1,33 +1,69 @@
----
-title: "Cell-type-specific Encoding of Prediction and Reward in Cortical Microcircuits during Novelty Detection"
-authors: Sharafeldin, A. & Choi, H.
-year: 2025
-source: drafts/neuroscience/cell type prediction and novelty.md
-tags: [predictive-coding, cell-types, interneurons, visual-cortex, reinforcement-learning, microcircuits]
-created: 2026-04-08
+# Cell-type-specific Encoding of Prediction and Reward in Cortical Microcircuits during Novelty Detection
+
+> Sharafeldin, A. & Choi, H. *bioRxiv* (2025).
+> DOI: 10.1101/2025.05.13.653877
+
 ---
 
-# Cell-type-specific Encoding of Prediction and Reward in Novelty Detection
+## Core Question
 
-## TL;DR
-A microcircuit model that unifies predictive coding with reinforcement learning, assigning distinct roles to excitatory, VIP, and SST neurons, and matching Allen Visual Behavior data on novelty responses.
+How do distinct cortical cell types (excitatory neurons, VIP and SST interneurons) contribute to novelty detection, and can their roles be explained by a unified framework combining predictive coding and reinforcement learning?
 
-## Key claims
-- Excitatory neurons carry prediction errors; VIP signals reward/surprise; SST maintains predictions and gates information flow.
-- The VIP→SST disinhibitory motif balances energy efficiency against representational capacity; ablating it degrades novelty responses.
-- Adaptation plus Hebbian learning reproduces contextual novelty activity observed in vivo.
-- Combining normative PC with reward-driven RL explains more than either alone.
+---
+
+## Background
+
+- The brain must detect novel or unexpected stimuli to adaptively allocate attention and learning resources.
+- **Predictive coding** posits that the cortex maintains internal predictions and signals prediction errors when expectations are violated.
+- **Reinforcement learning (RL)** provides a framework for how reward signals shape behavior and learning.
+- Different interneuron subtypes (VIP, SST, PV) form canonical microcircuit motifs (e.g., VIP→SST disinhibition), but their specific computational roles in novelty detection remained unclear.
+
+---
 
 ## Methods
-- Biologically constrained microcircuit model validated on Allen Brain Map Visual Behavior dataset.
-- Ablation studies on canonical interneuron motifs.
 
-## Why it matters
-Grounds abstract normative theories (predictive coding, RL) in identified cortical cell types and makes testable predictions for interneuron-specific novelty responses.
+- **Computational model** of cortical microcircuits that integrates predictive coding with reinforcement learning.
+- Each cell type (excitatory, VIP, SST) is assigned a specific algorithmic role grounded in biological plausibility.
+- **Validation** against experimental data from the Allen Brain Map — Visual Behavior dataset (publicly available).
+- **Ablation studies** to test the functional necessity of specific circuit motifs (e.g., removing VIP→SST disinhibition).
+- **Learning rules**: Adaptation and Hebbian learning are used to model contextual novelty responses.
 
-## Related
-- [[brain-vs-ai-world-models]]
-- [[latent-knowledge-sensory-cortex]]
-- [[human-l2-3-pyramidal-subtypes]]
-- [[wiki/learning-and-predictive-coding]]
-- [[wiki/cell-types-and-microcircuits]]
+---
+
+## Key Findings
+
+1. **Cell-type-specific roles**: The model assigns distinct computational functions to each interneuron subtype:
+   - Excitatory neurons encode prediction errors.
+   - VIP interneurons signal reward-related or surprise signals.
+   - SST interneurons contribute to maintaining predictions and gating information flow.
+
+2. **VIP-SST disinhibitory circuit is critical**: Ablation studies reveal that this canonical motif balances energy efficiency (suppressing redundant activity) with representational capacity (allowing novel signals through).
+
+3. **Reproduces experimental data**: The model successfully matches experimentally observed activity patterns across cell types during visual novelty paradigms.
+
+4. **Adaptation + Hebbian learning**: These mechanisms explain contextual novelty responses (e.g., stimulus-specific adaptation), though not all forms of novelty detection are captured.
+
+5. **Unified framework**: Combining predictive coding (normative) with RL (reward-driven) provides a more complete picture than either framework alone.
+
+---
+
+## Significance
+
+- Bridges the gap between abstract computational theories (predictive coding, RL) and biological circuit-level implementation.
+- Provides testable predictions about how specific interneuron subtypes should respond during novelty detection tasks.
+- Demonstrates that normative principles can be grounded in identified cell types and circuit motifs.
+
+---
+
+## Limitations
+
+- Not all types of novelty responses are explained by adaptation and Hebbian learning alone.
+- The model is validated on visual cortex data; generalizability to other cortical areas is not tested.
+- Simplifications in circuit architecture (e.g., omitting PV interneurons' detailed role).
+
+---
+
+## Data & Code
+
+- Experimental data: Allen Brain Map — Visual Behavior dataset
+- Code: Available on GitHub (see paper for link)

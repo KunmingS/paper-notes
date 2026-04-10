@@ -5,7 +5,7 @@ tags: [index, map]
 
 # Knowledge Base Index
 
-A thematic map of the 15 atomic notes. Clusters are not mutually exclusive — several notes sit at the intersection of multiple topics.
+A thematic map of the 15 notes in this knowledge base. Clusters are not mutually exclusive — several notes sit at the intersection of multiple topics.
 
 ## Population Geometry and Manifolds
 Low-dimensional population activity as the language of computation — dimensionality reduction, geometry, topology, and their link to circuit connectivity.
