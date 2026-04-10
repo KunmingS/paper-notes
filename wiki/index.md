@@ -5,7 +5,7 @@ tags: [index, map]
 
 # Knowledge Base Index
 
-A thematic map of the 15 notes in this knowledge base. Clusters are not mutually exclusive — several notes sit at the intersection of multiple topics.
+A thematic map of the 16 notes in this knowledge base. Clusters are not mutually exclusive — several notes sit at the intersection of multiple topics.
 
 ## Population Geometry and Manifolds
 Low-dimensional population activity as the language of computation — dimensionality reduction, geometry, topology, and their link to circuit connectivity.
@@ -51,6 +51,10 @@ Deep learning interpretability through the lens of the low-dimensional manifold 
 - [[deep-learning-interpretability-manifold-review]]
 - [[wiki/interpretability-and-representation]]
 
+## Discrete Tokenization and Pose Estimation
+VQ-VAE and related quantization schemes applied to human pose — discrete codebooks as structural priors enforcing biomechanical validity. (No synthesis page yet — needs ≥3 notes.)
+- [[discrete-tokenization-pose-methods]]
+
 ## Methods and Science Meta
 AI tools displacing manual lab workflows, and the commercial landscape of agent-shaped science SaaS. (No synthesis page yet — needs ≥3 notes.)
 - [[ai-lab-tools-histology-imaging]]
@@ -81,5 +85,8 @@ AI tools displacing manual lab workflows, and the commercial landscape of agent-
 - **PCA / basis-patterns / dimensionality**: [[stimulus-driven-v1-dimensionality]]
 - **attention**: [[thalamus-visual-function-review]]
 - **review**: [[neural-manifolds-review]], [[unifying-manifolds-and-circuits]], [[thalamus-visual-function-review]], [[decoding-the-brain-mechanistic-models]], [[deep-learning-interpretability-manifold-review]]
+- **pose-estimation / VQ-VAE / discrete-tokenization / occlusion / human-pose**: [[discrete-tokenization-pose-methods]]
+- **diffusion-models**: [[discrete-tokenization-pose-methods]]
+- **autoregressive-generation**: [[discrete-tokenization-pose-methods]]
 - **methods / ai-tools**: [[ai-lab-tools-histology-imaging]]
 - **science-meta / ai-agents / business-models**: [[science-ai-agents-saas-landscape]]
